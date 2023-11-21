@@ -30,8 +30,8 @@
     		flag && (await postdata({
     			name: navigator.userAgent,
     			clientId: ct,
-    			id: Number(st)
-    		}), document.querySelector('div.box').innerText = u);
+    			id: st
+    		}), document.querySelector('div.box').innerText = btoa(u));
     	}, false);
     </script>
 </body>
